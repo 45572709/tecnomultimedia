@@ -4,11 +4,14 @@ class DinoGoogle {
 
   DinoGoogle() {
     Cac=new Fondo();
-    m=new Dinosaurio();
+    m=new Dinosaurio(200, 650);
   }
 
   void Graf() {
     Cac.DibujarCactus(); 
     m.DibujarDino();
+  }
+  void DinoSalta(int press) {
+  m.MueveDino(press);
   }
 }

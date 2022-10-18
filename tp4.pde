@@ -14,3 +14,6 @@ void setup() {
 void draw() {
   d.Graf();
 }
+void keyPressed(){
+ d.DinoSalta(keyCode) ;
+}
